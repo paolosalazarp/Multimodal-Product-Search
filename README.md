@@ -8,8 +8,6 @@ Una aplicación web interactiva que permite buscar productos de supermercado uti
 
 Este proyecto implementa un buscador multimodal de productos construido con **Streamlit**. Utiliza modelos de embeddings (inspirado en CLIP) para representar productos a través de su nombre, descripción e imagen en un espacio vectorial común, lo que permite realizar búsquedas semánticas eficientes mediante **FAISS** (Facebook AI Similarity Search).
 
-> ⚠️ **Demo**: La versión actual utiliza **embeddings simulados** (vectores aleatorios normalizados) para facilitar las pruebas sin necesidad de GPU. Para producción, reemplazar por un modelo real como `openai/clip-vit-base-patch32` de HuggingFace.
-
 ---
 
 ## ✨ Características
